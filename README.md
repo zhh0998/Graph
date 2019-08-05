@@ -1,18 +1,9 @@
 ## 基本概念
 **图**是互连节点的集合，节点`node`通过边`edge`连接，由`G=(V, E)`表示  
-> 图可用于表示**社交网络**、**网页**、**生物网络**等
-
-**图分析**
-- 研究拓扑结构和连接性
-- 群体检测
-- 识别中心节点
-- 预测缺失的节点和边
-- ……
-
-**存储图**
-- 存储为边列表，存储有边连接的每一对节点的ID
-- 使用邻接矩阵，这通常是在内存中加载的方式
-- 使用邻接列表
+> Edges can be `directed`、`weighted`  
+> Nodes and edges can have `types` and `metadata`  
+> 图可用于表示**Social networks**、**Collaboration networks**、**Transportation networks**、**Computer networks**、**Connectomics**等  
+> Properties of real-world graphs: `big`、`sparse`、`degrees can be highly skewed/a power law degree distribution`
 
 **相关术语**  
 > 完备`complete`图：一个图的所有节点都有`n-1`个相邻节点，也就是说所有节点都具备所有可能的连接方式  
@@ -35,5 +26,12 @@
 ### Community detection（社区检测）
 评估群体聚类的方式
 
-## 图表征/图嵌入
+## 图表征
+- `edge list`存储有边连接的每一对节点的ID
+- `adjacency matrix`通常是在内存中加载的方式
+- `adjacency list`
+- `compressed sparse row (CSR)`需要两个数组Offsets和Edges
+![tradeoff-gr]()
+
+## 图嵌入
 
