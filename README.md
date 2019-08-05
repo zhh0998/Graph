@@ -30,8 +30,8 @@
 - `edge list`存储有边连接的每一对节点的ID
 - `adjacency matrix`通常是在内存中加载的方式
 - `adjacency list`
-- `compressed sparse row (CSR)`需要两个数组Offsets和Edges
-![tradeoff-gr]()
+- `compressed sparse row (CSR)`需要两个数组Offsets和Edges  
+![tradeoff-gr](https://github.com/Qingfeng-Yao/Graph/blob/master/images/tradeoff-gr.png)
 
 ## 图嵌入
 
