@@ -59,9 +59,13 @@ Networks are dynamic in nature
 - Node classification
 - Link prediction
 - Community detection  
+
 **Includings** `Node Embedding` `(sub)Graph Embedding`
 
-### Node Embedding
+### Node Embedding/Representation
+> Goal: encode high-dimensional and non-Euclidean graph information
+
+
 
 
 
