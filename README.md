@@ -16,9 +16,29 @@
 > 图可以被加权`weighted`，即在节点或关系上施加权重  
 > 如果一个图的边数量相比于节点数量较小，则该图是稀疏的`sparse`。相对地，如果节点之间的边非常多，则该图是密集的`dense`
 
+**Social Network**  
+> A social network is a graph made up of: a set of `individuals`, called “nodes”, and tied by one or more `interdependency`, such as friendship, called “edges”  
+`Social Network Analysis`
+- Community Detection
+- Influence Maximization
+- Link Prediction
+- Network Evolution
+- Network Embedding
+- Deep Learning for Networks
+
+**Dynamic Network**  
+Networks are dynamic in nature  
+- New(old) nodes are added(deleted)
+> New users, products, etc
+- The edges between nodes evolve over time
+> Users add or delete friends in social networks, or neurons establish new connections in brain networks
+
+
 ## 图算法
 ### Pathfinding（寻路）
-确定最优路径
+确定最优路径  
+> `Breadth-First Search(BFS)` requires O(n+m) work on n vertices and m edges
+> `Depth-First Search(DFS)` requires O(n+m) work on n vertices and m edges
 
 ### Centrality（中心性）
 确定网络中节点的重要性
@@ -34,4 +54,15 @@
 ![tradeoff-gr](https://github.com/Qingfeng-Yao/Graph/blob/master/images/tradeoff-gr.png)
 
 ## 图嵌入
+**Problem** `Representation Learning for Networks` `Graph Representation Learning` `Network Embedding` `Graph Embedding`
+**Tasks**  
+- Node classification
+- Link prediction
+- Community detection
+**Includings** `Node Embedding` `(sub)Graph Embedding`
+
+### Node Embedding
+
+
+
 
