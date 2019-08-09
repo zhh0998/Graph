@@ -37,7 +37,7 @@ Networks are dynamic in nature
 ## 图算法
 ### Pathfinding（寻路）
 确定最优路径  
-> `Breadth-First Search(BFS)` requires O(n+m) work on n vertices and m edges
+> `Breadth-First Search(BFS)` requires O(n+m) work on n vertices and m edges  
 > `Depth-First Search(DFS)` requires O(n+m) work on n vertices and m edges
 
 ### Centrality（中心性）
@@ -58,7 +58,7 @@ Networks are dynamic in nature
 **Tasks**  
 - Node classification
 - Link prediction
-- Community detection
+- Community detection  
 **Includings** `Node Embedding` `(sub)Graph Embedding`
 
 ### Node Embedding
