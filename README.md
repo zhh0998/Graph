@@ -27,11 +27,9 @@
 - Deep Learning for Networks
 
 **Dynamic Network**  
-Networks are dynamic in nature  
-- New(old) nodes are added(deleted)
-> New users, products, etc
-- The edges between nodes evolve over time
-> Users add or delete friends in social networks, or neurons establish new connections in brain networks
+> networks are dynamic in nature  
+> changes are smooth
+
 
 
 ## 图算法
@@ -63,8 +61,11 @@ Networks are dynamic in nature
 **Includings** `Node Embedding` `(sub)Graph Embedding`
 
 ### Node Embedding/Representation
-> Goal: encode high-dimensional and non-Euclidean graph information
+**static graph setting**  
+`Goal`: encode structural(high-dimensional and non-Euclidean graph) information
 
+**dynamic graph setting**  
+`Goal`: encode structural(high-dimensional and non-Euclidean graph) information and temporal information
 
 
 
