@@ -67,6 +67,22 @@
 **dynamic graph setting**  
 `Goal`: encode structural(high-dimensional and non-Euclidean graph) information and temporal information
 
+### 参考文献
+#### Overview
+2018 WWW Tutorial [Representation Learning on Networks](http://snap.stanford.edu/proj/embeddings-www/) William L. Hamilton, Rex Ying and Jure Leskovec
+
+2019 WWW Tutorial [Representation Learning on Networks: Theories, Algorithms, and Applications](https://www.aminer.cn/nrl_www2019) Jie Tang and Yuxiao Dong
+
+2019 KDD Workshop [Perspectives and Outlook on Network Embedding and GCN](http://pengcui.thumedialab.com/papers/Perspectives%20on%20NE%20and%20GCN_Peng.pdf) Peng Cui 
+
+2019 KDD Tutorial [Learning From Networks ——Algorithms, Theory, & Applications](http://pengcui.thumedialab.com/papers/KDD19%20Tutorial%20on%20NE_Peng.pdf) Peng Cui
+
+2017 IEEE [Representation Learning on Graphs: Methods and Applications](https://arxiv.org/pdf/1709.05584.pdf) William L. Hamilton, Rex Ying and Jure Leskovec
+
+2017 [Graph Embedding Techniques, Applications, and Performance: A Survey](https://arxiv.org/pdf/1705.02801.pdf) Palash Goyal and Emilio Ferrara
+
+
+
 
 
 
