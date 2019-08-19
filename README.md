@@ -62,10 +62,10 @@
 
 ### Node Embedding/Representation
 **static graph setting**  
-`Goal`: encode structural(high-dimensional and non-Euclidean graph) information
+`Goal`: encode structural information
 
 **dynamic graph setting**  
-`Goal`: encode structural(high-dimensional and non-Euclidean graph) information and temporal information
+`Goal`: encode structural information and temporal information
 
 ### 参考文献
 #### Overview
