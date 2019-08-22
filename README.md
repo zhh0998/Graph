@@ -78,7 +78,8 @@
 
 `evolving graph information`  
 - global perspective  
-> structures of dynamic graphs continue evolving since new nodes and edges are constantly introduced, which is dynamics of the graph(DOFG)  > discrete-time/snapshot 
+> structures of dynamic graphs continue evolving since new nodes and edges are constantly introduced, which is dynamics of the graph(DOFG)  
+> discrete-time/snapshot 
 - local perspective  
 > a node can keep establishing new edges, which is dynamics on the graph(DONG)  
 > continuous-time
