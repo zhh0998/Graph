@@ -28,7 +28,8 @@
 
 **Dynamic Network**  
 > networks are dynamic in nature  
-> changes are smooth
+> changes are smooth  
+> edges and nodes arrive over time
 
 
 
@@ -58,14 +59,29 @@
 - Link prediction
 - Community detection  
 
-**Includings** `Node Embedding` `(sub)Graph Embedding`
+**Includings** `Node Embedding` `Edge Embedding` `(sub)Graph Embedding`
 
-### Node Embedding/Representation
+### Node Embedding
 **static graph setting**  
-`Goal`: encode structural information
+`Goal`: encode structural and content information  
+- shallow embedding
+> matrix factorization  
+> random walk
+- deep embedding
+> neighborhood autoencoder  
+> neighborhood aggregation 
 
 **dynamic graph setting**  
-`Goal`: encode structural information and temporal information
+`Goal`: encode evolving graph information  
+- 直接添加时序信息  
+- 先对动态过程建模，再利用模型encode
+
+`evolving graph information`  
+- global perspective  
+> structures of dynamic graphs continue evolving since new nodes and edges are constantly introduced, which is dynamics of the graph(DOFG)  > discrete-time/snapshot 
+- local perspective  
+> a node can keep establishing new edges, which is dynamics on the graph(DONG)  
+> continuous-time
 
 ### 参考文献
 #### Overview
@@ -80,6 +96,12 @@
 2017 IEEE [Representation Learning on Graphs: Methods and Applications](https://arxiv.org/pdf/1709.05584.pdf) William L. Hamilton, Rex Ying and Jure Leskovec
 
 2017 [Graph Embedding Techniques, Applications, and Performance: A Survey](https://arxiv.org/pdf/1705.02801.pdf) Palash Goyal and Emilio Ferrara
+
+#### Edge Embedding
+2017 KDD [metapath2vec: Scalable representation learning for heterogeneous networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) Yuxiao Dong, Nitesh V. Chawla and Ananthram Swami
+
+#### (sub)Graph Embedding
+2018 AAAI [Link prediction via subgraph embedding-based convex matrix completion](http://iiis.tsinghua.edu.cn/~weblt/papers/link-prediction-subgraphembeddings.pdf) Zhu Cao, Linlin Wang, and Gerard de Melo
 
 
 
