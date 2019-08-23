@@ -88,15 +88,40 @@
 #### Overview
 2018 WWW Tutorial [Representation Learning on Networks](http://snap.stanford.edu/proj/embeddings-www/) William L. Hamilton, Rex Ying and Jure Leskovec
 
-2019 WWW Tutorial [Representation Learning on Networks: Theories, Algorithms, and Applications](https://www.aminer.cn/nrl_www2019) Jie Tang and Yuxiao Dong
+2017 [Representation Learning on Graphs: Methods and Applications](https://arxiv.org/pdf/1709.05584.pdf) William L. Hamilton, Rex Ying and Jure Leskovec
+
+2019 WWW Tutorial [Representation Learning on Networks: Theories, Algorithms, and Applications](https://www.aminer.cn/nrl_www2019) Jie Tang and Yuxiao Dong 
 
 2019 KDD Workshop [Perspectives and Outlook on Network Embedding and GCN](http://pengcui.thumedialab.com/papers/Perspectives%20on%20NE%20and%20GCN_Peng.pdf) Peng Cui 
 
 2019 KDD Tutorial [Learning From Networks ——Algorithms, Theory, & Applications](http://pengcui.thumedialab.com/papers/KDD19%20Tutorial%20on%20NE_Peng.pdf) Peng Cui
 
-2017 IEEE [Representation Learning on Graphs: Methods and Applications](https://arxiv.org/pdf/1709.05584.pdf) William L. Hamilton, Rex Ying and Jure Leskovec
+2017 [A Survey on Network Embedding](https://arxiv.org/pdf/1711.08752.pdf) Peng Cui, Xiao Wang, Jian Pei and Wenwu Zhu  
+> structure-preserving methods and property-preserving methods
 
 2017 [Graph Embedding Techniques, Applications, and Performance: A Survey](https://arxiv.org/pdf/1705.02801.pdf) Palash Goyal and Emilio Ferrara
+
+#### Matrix Factorization
+2001 [Laplacian eigenmaps and spectral techniques for embedding and clustering](http://web.cse.ohio-state.edu/~belkin.8/papers/LEM_NIPS_01.pdf) Mikhail Belkin and Partha Niyogi
+
+2015 CIKM [Grarep: Learning graph representations with global structural information](https://www.researchgate.net/profile/Qiongkai_Xu/publication/301417811_GraRep/links/5847ecdb08ae8e63e633b5f2/GraRep.pdf) Shaosheng Cao, Wei Lu, and Qiongkai Xu
+
+#### Random Walk
+2014 KDD [Deepwalk: online learning of social representations](http://www.perozzi.net/publications/14_kdd_deepwalk.pdf) Bryan Perozzi, Rami Alrfou, and Steven Skiena  
+> 新节点表示
+
+2015 WWW [Line: Large-scale information network embedding](http://www.www2015.it/documents/proceedings/proceedings/p1067.pdf) Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, and Qiaozhu Mei  
+> 新节点表示
+
+2016 KDD [node2vec: Scalable feature learning for networks](https://cs.stanford.edu/~jure/pubs/node2vec-kdd16.pdf) Aditya Grover and Jure Leskovec
+
+#### Autoencoder
+2016 KDD [Structural deep network embedding](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf) Daixin Wang, Peng Cui and Wenwu Zhu
+
+2016 AAAI [Deep neural networks for learning graph representations](https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf) Shaosheng Cao, Wei Lu and Qiongkai Xu
+
+#### GCN
+2017 NIPS [Inductive representation learning on large graphs](https://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) William L. Hamilton, Rex Ying and Jure Leskovec
 
 #### Edge Embedding
 2017 KDD [metapath2vec: Scalable representation learning for heterogeneous networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) Yuxiao Dong, Nitesh V. Chawla and Ananthram Swami
