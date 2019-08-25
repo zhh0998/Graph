@@ -77,12 +77,14 @@
 - 先对动态过程建模，再利用模型encode
 
 `evolving graph information`  
-- global perspective  
-> structures of dynamic graphs continue evolving since new nodes and edges are constantly introduced, which is dynamics of the graph(DOFG)  
-> discrete-time/snapshot 
-- local perspective  
-> a node can keep establishing new edges, which is dynamics on the graph(DONG)  
-> continuous-time
+- structure  
+- attribute  
+- pattern
+
+`time`  
+> discrete-time/snapshot   
+> loss of information between snapshots, lack of ability to capture fine-grained temporal dynamics, the selection of appropriate aggregation granularity which is often misspecified   
+> continuous-time/finer time granularity
 
 ### 参考文献
 #### Overview
@@ -128,6 +130,20 @@
 
 #### (sub)Graph Embedding
 2018 AAAI [Link prediction via subgraph embedding-based convex matrix completion](http://iiis.tsinghua.edu.cn/~weblt/papers/link-prediction-subgraphembeddings.pdf) Zhu Cao, Linlin Wang, and Gerard de Melo
+
+#### Dynamic embedding
+2016 TKDE [Scalable Temporal Latent Space Inference for Link Prediction in Dynamic Social Networks](https://arxiv.org/pdf/1411.3675.pdf) Linhong Zhu, Dong Guo, Junming Yin, Greg Ver Steeg and Aram Galstyan [code](https://github.com/linhongseba/Temporal-Network-Embedding)
+
+2017 ICML [Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs](https://arxiv.org/pdf/1705.05742.pdf) Rakshit Trivedi, Hanjun Dai, Yichen Wang and Le Song [code](https://github.com/rstriv/Know-Evolve)
+
+2018 AAAI [TIMERS: Error-Bounded SVD Restart on Dynamic Networks](https://arxiv.org/pdf/1711.09541.pdf) Ziwei Zhang, Peng Cui, Jian Pei, Xiao Wang and Wenwu Zhu [code](https://github.com/palash1992/DynamicGEM)
+
+2018 [DynGEM: Deep Embedding Method for Dynamic Graphs](https://arxiv.org/pdf/1805.11273.pdf) Palash Goyal, Nitin Kamra, Xinran He and Yan Liu [code](https://github.com/palash1992/DynamicGEM)
+
+2018 [dyngraph2vec: Capturing Network Dynamics using Dynamic Graph Representation Learning](https://arxiv.org/pdf/1809.02657.pdf) Palash Goyal, Sujit Rokka Chhetri and Arquimedes Canedo [code](https://github.com/palash1992/DynamicGEM)
+
+2018 AAAI [Dynamic Network Embedding by Modeling Triadic Closure Process](http://yangy.org/works/dynamictriad/dynamic_triad.pdf) Lekui Zhou, Yang Yang, Xiang Ren, Fei Wu and Yueting Zhuang [code](https://github.com/luckiezhou/DynamicTriad)
+
 
 
 
