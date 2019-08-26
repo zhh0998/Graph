@@ -132,35 +132,50 @@
 2018 AAAI [Link prediction via subgraph embedding-based convex matrix completion](http://iiis.tsinghua.edu.cn/~weblt/papers/link-prediction-subgraphembeddings.pdf) Zhu Cao, Linlin Wang, and Gerard de Melo
 
 #### Dynamic embedding
-2016 TKDE [Scalable Temporal Latent Space Inference for Link Prediction in Dynamic Social Networks](https://arxiv.org/pdf/1411.3675.pdf) Linhong Zhu, Dong Guo, Junming Yin, Greg Ver Steeg and Aram Galstyan [code](https://github.com/linhongseba/Temporal-Network-Embedding)
+2016 TKDE [Scalable Temporal Latent Space Inference for Link Prediction in Dynamic Social Networks](https://arxiv.org/pdf/1411.3675.pdf) Linhong Zhu, Dong Guo, Junming Yin, Greg Ver Steeg and Aram Galstyan [code](https://github.com/linhongseba/Temporal-Network-Embedding)  
+> BCGD
 
-2017 CIKM [Attributed Network Embedding for Learning in a Dynamic Environment](https://arxiv.org/pdf/1706.01860.pdf) Jundong Li, Harsh Dani, Xia Hu, Jiliang Tang, Yi Chang and Huan Liu
+2017 CIKM [Attributed Network Embedding for Learning in a Dynamic Environment](https://arxiv.org/pdf/1706.01860.pdf) Jundong Li, Harsh Dani, Xia Hu, Jiliang Tang, Yi Chang and Huan Liu  
+> DANE
 
-2017 ICML [Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs](https://arxiv.org/pdf/1705.05742.pdf) Rakshit Trivedi, Hanjun Dai, Yichen Wang and Le Song [code](https://github.com/rstriv/Know-Evolve)
+2017 ICML [Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs](https://arxiv.org/pdf/1705.05742.pdf) Rakshit Trivedi, Hanjun Dai, Yichen Wang and Le Song [code](https://github.com/rstriv/Know-Evolve)  
+> Know-Evolve
 
-2018 WWW [Continuous-Time Dynamic Network Embeddings](http://ryanrossi.com/pubs/nguyen-et-al-WWW18-BigNet.pdf) Giang Hoang Nguyen, John Boaz Lee, Ryan A. Rossi, Nesreen K. Ahmed, Eunyee Koh and Sungchul Kim
+2018 WWW [Continuous-Time Dynamic Network Embeddings](http://ryanrossi.com/pubs/nguyen-et-al-WWW18-BigNet.pdf) Giang Hoang Nguyen, John Boaz Lee, Ryan A. Rossi, Nesreen K. Ahmed, Eunyee Koh and Sungchul Kim  
+> CTDNE
 
-2018 [Streaming Graph Neural Networks](https://arxiv.org/pdf/1810.10627.pdf) Yao Ma, Ziyi Guo, Zhaochun Ren, Eric Zhao, Jiliang Tang and Dawei Yin
+2018 [Streaming Graph Neural Networks](https://arxiv.org/pdf/1810.10627.pdf) Yao Ma, Ziyi Guo, Zhaochun Ren, Eric Zhao, Jiliang Tang and Dawei Yin  
+> DGNN
 
-2018 TKDE [High-order Proximity Preserved Embedding For Dynamic Networks](http://pengcui.thumedialab.com/papers/High-orderDynamic.pdf) Dingyuan Zhu, Peng Cui, Ziwei Zhang, Jian Pei and Wenwu Zhu
+2018 TKDE [High-order Proximity Preserved Embedding For Dynamic Networks](http://pengcui.thumedialab.com/papers/High-orderDynamic.pdf) Dingyuan Zhu, Peng Cui, Ziwei Zhang, Jian Pei and Wenwu Zhu  
+> DHPE
 
-2018 IJCAI [Dynamic Network Embedding :An Extended Approach for Skip-gram based Network Embedding](https://www.ijcai.org/proceedings/2018/0288.pdf) Lun Du, Yun Wang, Guojie Song, Zhicong Lu and Junshan Wang
+2018 IJCAI [Dynamic Network Embedding :An Extended Approach for Skip-gram based Network Embedding](https://www.ijcai.org/proceedings/2018/0288.pdf) Lun Du, Yun Wang, Guojie Song, Zhicong Lu and Junshan Wang  
+> DNE
 
-2018 AAAI [Dynamic Network Embedding by Modeling Triadic Closure Process](http://yangy.org/works/dynamictriad/dynamic_triad.pdf) Lekui Zhou, Yang Yang, Xiang Ren, Fei Wu and Yueting Zhuang [code](https://github.com/luckiezhou/DynamicTriad)
+2018 AAAI [Dynamic Network Embedding by Modeling Triadic Closure Process](http://yangy.org/works/dynamictriad/dynamic_triad.pdf) Lekui Zhou, Yang Yang, Xiang Ren, Fei Wu and Yueting Zhuang [code](https://github.com/luckiezhou/DynamicTriad)  
+> DynamicTriad
 
-2018 [DynGEM: Deep Embedding Method for Dynamic Graphs](https://arxiv.org/pdf/1805.11273.pdf) Palash Goyal, Nitin Kamra, Xinran He and Yan Liu [code](https://github.com/palash1992/DynamicGEM)
+2018 [DynGEM: Deep Embedding Method for Dynamic Graphs](https://arxiv.org/pdf/1805.11273.pdf) Palash Goyal, Nitin Kamra, Xinran He and Yan Liu [code](https://github.com/palash1992/DynamicGEM)  
+> DynGEM
 
-2018 [dyngraph2vec: Capturing Network Dynamics using Dynamic Graph Representation Learning](https://arxiv.org/pdf/1809.02657.pdf) Palash Goyal, Sujit Rokka Chhetri and Arquimedes Canedo [code](https://github.com/palash1992/DynamicGEM)
+2018 [dyngraph2vec: Capturing Network Dynamics using Dynamic Graph Representation Learning](https://arxiv.org/pdf/1809.02657.pdf) Palash Goyal, Sujit Rokka Chhetri and Arquimedes Canedo [code](https://github.com/palash1992/DynamicGEM)  
+> dyngraph2vec
 
-2018 KDD [Embedding Temporal Network via Neighborhood Formation](http://shichuan.org/hin/topic/Embedding/2018.KDD%202018%20Embedding%20Temporal%20Network%20via%20Neighborhood%20Formation.pdf) Yuan Zuo, Guannan Liu, Hao Lin, Jia Guo, Xiaoqian Hu and Junjie Wu
+2018 KDD [Embedding Temporal Network via Neighborhood Formation](http://shichuan.org/hin/topic/Embedding/2018.KDD%202018%20Embedding%20Temporal%20Network%20via%20Neighborhood%20Formation.pdf) Yuan Zuo, Guannan Liu, Hao Lin, Jia Guo, Xiaoqian Hu and Junjie Wu  
+> HTNE
 
-2018 KDD [NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks](http://shichuan.org/hin/time/2018.KDD%202018%20NetWalk_A%20Flexible%20Deep%20Embedding%20Approach%20for%20Anomaly%20Detection%20in%20Dynamic%20Networks.pdf) Wenchao Yu, Wei Cheng, Charu C. Aggarwal, Kai Zhang, Haifeng Chen and Wei Wang
+2018 KDD [NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks](http://shichuan.org/hin/time/2018.KDD%202018%20NetWalk_A%20Flexible%20Deep%20Embedding%20Approach%20for%20Anomaly%20Detection%20in%20Dynamic%20Networks.pdf) Wenchao Yu, Wei Cheng, Charu C. Aggarwal, Kai Zhang, Haifeng Chen and Wei Wang  
+> NetWalk
 
-2018 AAAI [TIMERS: Error-Bounded SVD Restart on Dynamic Networks](https://arxiv.org/pdf/1711.09541.pdf) Ziwei Zhang, Peng Cui, Jian Pei, Xiao Wang and Wenwu Zhu [code](https://github.com/palash1992/DynamicGEM)
+2018 AAAI [TIMERS: Error-Bounded SVD Restart on Dynamic Networks](https://arxiv.org/pdf/1711.09541.pdf) Ziwei Zhang, Peng Cui, Jian Pei, Xiao Wang and Wenwu Zhu [code](https://github.com/palash1992/DynamicGEM)  
+> TIMERS
 
-2019 IJCAI [Large Scale Evolving Graphs with Burst Detection](http://keg.cs.tsinghua.edu.cn/jietang/publications/IJCAI19-Zhao-et-al-Evolving_Graphs_with_Burst_Detection.pdf) Yifeng Zhao, Xiangwei Wang, Hongxia Yang, Le Song and Jie Tang
+2019 IJCAI [Large Scale Evolving Graphs with Burst Detection](http://keg.cs.tsinghua.edu.cn/jietang/publications/IJCAI19-Zhao-et-al-Evolving_Graphs_with_Burst_Detection.pdf) Yifeng Zhao, Xiangwei Wang, Hongxia Yang, Le Song and Jie Tang  
+> BurstGraph
 
-2019 ICLR [DyRep: Learning Representations over Dynamic Graphs](https://openreview.net/pdf?id=HyePrhR5KX) Rakshit Trivedi, Mehrdad Farajtabar, Prasenjeet Biswal and Hongyuan Zha
+2019 ICLR [DyRep: Learning Representations over Dynamic Graphs](https://openreview.net/pdf?id=HyePrhR5KX) Rakshit Trivedi, Mehrdad Farajtabar, Prasenjeet Biswal and Hongyuan Zha  
+> DyRep
 
 
 
