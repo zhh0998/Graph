@@ -122,8 +122,27 @@
 
 2016 AAAI [Deep neural networks for learning graph representations](https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf) Shaosheng Cao, Wei Lu and Qiongkai Xu
 
-#### GCN
+#### GNN
+2014 ICLR [Spectral networks and locally connected networks on graphs](https://arxiv.org/pdf/1312.6203.pdf) Joan Bruna, Wojciech Zaremba, Arthur Szlam and Yann LeCun
+
+2015 NIPS [Convolutional networks on graphs for learning molecular fingerprints](https://arxiv.org/pdf/1509.09292.pdf) David Duvenaud, Dougal Maclaurin, Jorge Aguilera-Iparraguirre, Rafael Gomez-Bombarelli, Timothy Hirzel, Alan Aspuru-Guzik and Ryan P. Adams
+
+2016 NIPS [Convolutional neural networks on graphs with fast localized spectral filtering](https://arxiv.org/pdf/1606.09375.pdf) Michael Defferrard, Xavier Bresson and Pierre Vandergheynst
+
+2016 ICLR [Gated graph sequence neural networks](https://arxiv.org/pdf/1511.05493.pdf) Yujia Li, Daniel Tarlow, Marc Brockschmidt and Richard Zemel
+ 
 2017 NIPS [Inductive representation learning on large graphs](https://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) William L. Hamilton, Rex Ying and Jure Leskovec
+
+2017 ICML [Neural message passing for quantum chemistry](https://arxiv.org/pdf/1704.01212.pdf) Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals and George E. Dahl
+
+2017 ICLR [Semi-supervised classification with graph convolutional networks](https://arxiv.org/pdf/1609.02907.pdf) Thomas N. Kipf and Max Welling  
+> GCN
+
+2017 NIPS [Predicting organic reaction outcomes with Weisfeiler-Lehman network](https://arxiv.org/pdf/1709.04555.pdf) Wengong Jin, Connor W. Coley, Regina Barzilay and Tommi Jaakkola
+
+2018 ICLR [FastGCN: Fast learning with graph convolutional networks via importance sampling](https://arxiv.org/pdf/1801.10247.pdf) Jie Chen, Tengfei Ma and Cao Xiao
+
+2018 ICLR [Graph attention networks]() Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Lio and Yoshua Bengio
 
 #### Edge Embedding
 2017 KDD [metapath2vec: Scalable representation learning for heterogeneous networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) Yuxiao Dong, Nitesh V. Chawla and Ananthram Swami
@@ -176,6 +195,15 @@
 
 2019 ICLR [DyRep: Learning Representations over Dynamic Graphs](https://openreview.net/pdf?id=HyePrhR5KX) Rakshit Trivedi, Mehrdad Farajtabar, Prasenjeet Biswal and Hongyuan Zha  
 > DyRep
+ 
+#### Dynamic + GNN
+2016 [Structured sequence modeling with graph convolutional recurrent networks](https://arxiv.org/pdf/1612.07659.pdf) Youngjoo Seo, Michael Defferrard, Pierre Vandergheynst and Xavier Bresson
+
+2017 [Dynamic graph convolutional networks](https://arxiv.org/pdf/1704.06199.pdf) Franco Manessia, Alessandro Rozza and Mario Manzo
+
+2018 [Learning graph dynamics using deep neural networks](https://www.sciencedirect.com/science/article/pii/S2405896318300788) Apurva Narayan and Peter H. O’N Roe
+
+2019 [EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs](https://arxiv.org/pdf/1902.10191.pdf) Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler and Charles E. Leisersen
 
 
 
